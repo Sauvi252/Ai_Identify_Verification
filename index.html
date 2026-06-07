@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VeriSecure: AI Identity Verification</title>
+    <meta name="description" content="VeriSecure is a demo AI-powered Identity Verification platform using synthetic data for educational and internship purposes. Features OCR, Fraud Detection, and KYC compliance simulation." />
+    <meta name="keywords" content="AI, KYC, Identity Verification, OCR, Fraud Detection, Demo, Student Project" />
+    <meta name="author" content="VeriSecure Team" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0f172a; /* slate-900 */
+        background-image: 
+          linear-gradient(rgba(16, 185, 129, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(16, 185, 129, 0.05) 1px, transparent 1px),
+          linear-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+        background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+      }
+
+      /* Custom Animations */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes loading {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+
+      .animate-fade-in {
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+
+      .animate-fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+    </style>
+<link rel="stylesheet" href="index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Student Project: AI Identity Verification",
+  "description": "A beginner-friendly demo of AI-based KYC verification using synthetic data.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
